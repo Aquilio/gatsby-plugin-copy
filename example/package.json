@@ -1,0 +1,17 @@
+{
+  "name": "using-gatsby-plugin-copy",
+  "private": true,
+  "description": "Gatsby example site using gatsby-plugin-copy",
+  "author": "Curtis Cummings <curtis@aquil.io>",
+  "dependencies": {
+    "gatsby": "latest",
+    "gatsby-link": "latest",
+    "gatsby-plugin-copy": "latest"
+  },
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  }
+}
