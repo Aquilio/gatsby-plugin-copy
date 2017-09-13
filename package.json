@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-plugin-copy",
+  "version": "0.0.1",
+  "description": "Gatsby plugin to copy files and directories",
+  "author": "Curtis Cummings <curtis@aquil.io>",
+  "license": "MIT",
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/aquilio/gatsby-plugin-copy"
+  },
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir .",
+    "prepublishOnly": "cross-env NODE_ENV=production yarn run build"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "dependencies": {
+    "cross-env": "^5.0.5",
+    "fs-extra": "^4.0.2"
+  }
+}
