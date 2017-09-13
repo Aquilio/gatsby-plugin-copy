@@ -11,7 +11,9 @@
   "scripts": {
     "build": "babel src --out-dir .",
     "watch": "babel -w src --out-dir .",
-    "prepublishOnly": "cross-env NODE_ENV=production yarn run build"
+    "prepublishOnly": "cross-env NODE_ENV=production yarn run build",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "gatsby",
@@ -19,7 +21,8 @@
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0"
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.0.2"
   },
   "dependencies": {
     "cross-env": "^5.0.5",
